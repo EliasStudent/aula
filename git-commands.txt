@@ -1,0 +1,26 @@
+#comando para o git
+
+#inicia um novo repositório local do git
+$ git init
+
+#inicia um repositorio e cira o diretório directory
+$ git init directory
+
+#inicia um repositório centralizado para contribuições diversas
+#inicia o repositorio com o core.bare = yes.
+$ git init --bare
+
+#inicia um repositorio não bare compartilhado
+$ git init --share 
+
+#adiciona o arquivo ao index para fazer commit posteriormente
+$ git add nome_do_arquivo
+
+#adiciona todos os arquivos .txt ao indice
+$ git add *.txt
+
+#adiciona totos os arquivos ao indice
+$ git add .
+
+#remove um arquivo do indice
+$ git rm nome_do_arquivo
